@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+   justify-content: space-between;
+   
+    display: flex;
+    align-items: center;
+    background-color: rgb(165, 203, 219);
+    padding: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+color: white;
+font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 70px;
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    padding: 10px;
+    background-color: rgb(165, 203, 219);
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.log{
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(165, 203, 219);
+    color: white;
+    font-weight: bold;
+}
+.hero{
+    background-image: url(mountain.webp);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+.hero
